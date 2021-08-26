@@ -1,5 +1,5 @@
 main = do
-    let name1 = "dudu"
+    let name1 = "dudu" -- let키워드는 js에서 const처럼 불변 
+    let year = 3
     putStrLn (name1 ++ " wanna go dancing")
-    putStrLn (show 43) -- 숫자인데 글자로 표현해달라
-   -- putStrLn ("he named himself " ++ name1 ++ " 3years ago.")
+    putStrLn ("he named himself " ++ name1 ++ show year ++" years ago.")
